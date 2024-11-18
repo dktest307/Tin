@@ -7,35 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Giới thiệu bản thân - Vũ Minh Chiến</h1>
+    <div class="header">
+        <div class="container">
+            <h1>Welcome!</h1>
+        </div>
+    </div>
 
-    
-    <h2>Thông tin cá nhân</h2>
-    <p><strong>Họ và tên:</strong> Vũ Minh Chiến</p>
-    <p><strong>Ngày sinh:</strong> 06/03/2007</p>
-    <p><strong>Địa chỉ:</strong> Đông Đoài , Yên Lâm , Yên Mô, Ninh Bình</p>
-    <p><strong>Đang học tại:</strong> THPT Yên Mô B, lớp 12A1</p>
+    <!-- Personal Info -->
+    <div class="personal-info">
+        <div class="container">
+            <h2>Thông tin cá nhân</h2>
+            <ul>
+                <li><strong>Họ và tên:</strong> Vũ Minh Chiến</li>
+                <li><strong>Ngày sinh:</strong>06/03/2007</li>
+                <li><strong>Trường:</strong> THPT Yên Mô B</li>
+                <li><strong>Lớp:</strong>12A1</li>
+                <li><strong>Sở thích:</strong> Đọc sách, chơi thể thao</li>
+                <li><strong>Email:</strong> <a href="mailto:vuminhchiennb2007@gmail.com"></a>vuminhchiennb2007@gmail.com</li>
+                <li><strong>Facebook:</strong> <a href="https://www.facebook.com/chienbry" target="_blank">Vũ Minh Chiến</a></li>
+            </ul>
+        </div>
+    </div>
 
-    <h2>Sở thích</h2>
-    <p>Tôi thích đá bóng,bóng chuyền và ngủ.</p>
+    <!-- Gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Bộ sưu tập ảnh</h2>
+            <div class="images">
+                <div><img src="src/1.jpg" alt="Ảnh 1"></div>
+                <div><img src="src/2.jpg" alt="Ảnh 2"></div>
+                <div><img src="src/3.jpg" alt="Ảnh 3"></div>
+            </div>
+        </div>
+    </div>
 
-    <h2>Thông tin liên hệ</h2>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:vuminhchiennb2007@gmail.com"></a>vuminhchiennb2007@gmail.com</li>
-        <li><strong>Facebook:</strong> <a href="https://www.facebook.com/chienbry" target="_blank">Vũ Minh Chiến</a></li>
-    </ul>
-
-    
-    <h2>Ảnh</h2>
-    
-        <img src="src/1.jpg"alt="Ảnh 1" width="300" height="250">
-        <img src="src/2.jpg"alt="Ảnh 2" width="200" height="300">
-        <img src="src/3.jpg" alt="Ảnh 3" width="300" height="250">
-
-    <h3>Video yêu thích</h3>
-    <video width="320" height="240" controls>
-        <source src="src/video.mp4">
-    </video>
-
+    <!-- Video -->
+    <div class="video">
+        <div class="container">
+            <h2>Video yêu thích</h2>
+            <video controls width="100%" height="auto">
+                <source src="src/video.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
+            </video>
+        </div>
+    </div>
 </body>
 </html>
