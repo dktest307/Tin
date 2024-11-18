@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius:2px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.personal-info {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.personal-info h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.personal-info ul {
+    padding: 0;
+    list-style: none;
+}
+
+.personal-info li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.personal-info li strong {
+    color: #333;
+}
+
+.gallery {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.gallery h2 {
+    color: #4CAF50;
+    font-size: 24px;
+    border-bottom: 2px solid #4CAF50;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.images div {
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.video {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.video h2 {
+    color: #4CAF50;
+    font-size: 24px;
+    border-bottom: 2px solid #4CAF50;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+video {
+    width: 100%;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
